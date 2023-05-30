@@ -1,3 +1,43 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Cyber Trust Project'
+title = 'Centre for Cyber Trust'
+
+[languages.en]
+weight = 10
+
+[paige.menu]
+breakpoint = "sm"
+style = "pills"
+
+[[languages.en.menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "team"
+name = "Team"
+url = "/team"
+weight = 20
+
+[[languages.en.menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects"
+weight = 30
+
+[[languages.en.menu.main]]
+identifier = "pubs"
+name = "Publications"
+url = "/publications"
+weight = 40
+
+[[module.imports]]
+path = "github.com/willfaught/paige"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
