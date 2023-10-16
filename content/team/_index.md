@@ -3,7 +3,7 @@ title: "Team"
 description: "Members of the Centre"
 ---
 
-<p>{{% paige/image class="object-fit-cover rounded-4" fetchpriority="high" height="24rem" loading="eager" src="/images/team.jpg" width="100%" %}}</p>
+<p>{{% paige/image class="object-fit-cover rounded-4" fetchpriority="high" height="24rem" loading="eager" src="/cyber-trust-homepage/images/team.jpg" width="100%" %}}</p>
 
 The Centre comprises four research groups from two different institutions; ETH Zürich and University of Bonn.
 
