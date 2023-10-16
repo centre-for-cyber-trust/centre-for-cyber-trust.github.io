@@ -1,4 +1,4 @@
-module github.com/centre-for-cyber-trust/homepage/
+module github.com/centre-for-cyber-trust/homepage
 
 go 1.20
 
