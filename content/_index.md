@@ -14,7 +14,7 @@ paige:
 draft: false
 ---
 
-<p>{{% paige/image class="object-fit-cover rounded-4" fetchpriority="high" height="24rem" loading="eager" src="/cyber-trust-homepage/images/title2.jpg" width="100%" %}}</p>
+<p>{{% paige/image class="object-fit-cover rounded-4" fetchpriority="high" height="24rem" loading="eager" src="/homepage/images/title2.jpg" width="100%" %}}</p>
 
 {{< paige/quote cite="Joël Mesot, President ETH Zurich" >}}
     Make the digital world more secure in a fundamental way.
