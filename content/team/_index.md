@@ -12,7 +12,6 @@ The Centre comprises four research groups from two different institutions; ETH Z
   * Dr. Juan Guarnizo Hernandez
   * Felix Linker
   * Mihael Liskij
-  * Dr. Martin Ochoa
   * Jesus Solano
 
 [Programming Methodology Group](https://www.pm.inf.ethz.ch/) (ETHZ)
