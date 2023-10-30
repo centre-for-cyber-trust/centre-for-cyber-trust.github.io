@@ -2,7 +2,6 @@
 title: "ADEM: An Authentic Digital Emblem"
 description: "How can we transfer the physical red cross into the digital world?"
 date: 2023-06-30T15:16:22+02:00
-draft: true
 ---
 
 <p>{{% paige/image class="object-fit-cover rounded-4" fetchpriority="high" height="24rem" loading="eager" src="/homepage/images/digital_emblem.jpg" width="100%" %}}</p>
