@@ -24,11 +24,14 @@ The sites "Home", "Team", and "Publications" were designed to be stand-alone.
 Please only modify the respective `_index.md` file and do not add new posts.
 
 The "Projects" website was designed to feature sub-posts.
-To create a new project, run:
+To create a new post (describing a project), run:
 
 ```sh
 hugo new content projects/NAME.md
 ```
+
+Alternatively, if you don't want to use `hugo`, you can also simply create that new markdown file yourself and copy a header from one of the other files.
+Make sure to select a date that is sensible.
 
 `NAME` will be the URL slug for the project, i.e., it will be hosted at `/projects/NAME`.
 Posts have two parts: a header (within the `---`s) and the body (after the header).
