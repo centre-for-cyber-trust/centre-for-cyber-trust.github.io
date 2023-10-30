@@ -15,3 +15,7 @@
 .paige-summary {
     display: none;
 }
+
+#paige-content {
+    max-width: 600pt!important;
+}
