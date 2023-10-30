@@ -40,6 +40,12 @@ There are three types of things you can put into a post's body:
 - Shortcodes. This is a Hugo feature. Shortcodes are defined by the template used and give you more styling options.
 You can find a list of our template's shortcodes [here](https://github.com/willfaught/paige#shortcodes).
 
+### Why Is My Post not Showing Up?
+
+You added a post, and it's not rendered on the homepage?
+Probably it's a draft still.
+Set `draft: false` in the post's header.
+
 ## Compiling the Site Locally
 
 Before you can build the site, you need to run:
