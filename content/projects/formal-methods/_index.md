@@ -2,7 +2,6 @@
 title: "Formal Methods in the Centre for Cyber Trust"
 date: 2023-11-13T09:36:58+01:00
 description: "Learn how we apply and advance Formal Methods in the Centre"
-draft: true
 ---
 
 <p>{{% paige/image class="object-fit-cover rounded-4" fetchpriority="high" height="16rem" loading="eager" src="https://images.unsplash.com/photo-1577401239170-897942555fb3" width="100%" %}}</p>
