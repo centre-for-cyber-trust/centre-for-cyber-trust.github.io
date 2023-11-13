@@ -17,7 +17,7 @@ Additionally, we are conducting an interview study aimed at experts in the field
 
 ## Read More
 
-- The IEEE S&P publication is available [here](https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1NrbXCX8M9y/pdf).
+- The IEEE S&P publication is available [here](https://doi.org/10.1109/SP46215.2023.10179417).
 
 ## Project Members
 
