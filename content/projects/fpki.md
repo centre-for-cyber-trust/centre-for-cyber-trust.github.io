@@ -1,5 +1,5 @@
 ---
-title: "Flexible Public Key Infrastructure (F-PKI)"
+title: "F-PKI: The Flexible Public Key Infrastructure"
 description: "Strengthening the web PKI through flexible trust"
 date: 2023-06-30T15:17:34+02:00
 ---
