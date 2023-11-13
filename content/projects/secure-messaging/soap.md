@@ -20,3 +20,8 @@ A video demo of the Signal prototype is shown below.
 You can find all sources related to this project [on its project webpage](https://soap-wg.github.io/sources/).
 
 {{< youtube Ip_RAF8PRrM >}}
+
+## Project Members
+
+* David Basin (ETH Zürich)
+* Felix Linker (ETH Zürich)
