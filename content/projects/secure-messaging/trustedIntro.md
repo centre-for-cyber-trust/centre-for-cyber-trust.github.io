@@ -63,10 +63,10 @@ You can read the [position paper](https://netsec.ethz.ch/publications/papers/202
 
 ## Project Members
 
+- Adrian Perrig (ETH Zürich)
+- Christelle Gloor (ETH Zürich)
 - Andrea Byku (ETH Zürich) 
 - Adrian Cucoș (ETH Zürich) 
-- Christelle Gloor (ETH Zürich)
-
 
 
 <sup>1: Both Facebook Messenger and Threema offer end-to-end encryption, but it is an opt-in feature, not enabled by default.</sup>
