@@ -24,5 +24,6 @@ paige:
 - **FABRID: Flexible Attestation-Based Routing for Inter-Domain Networks**. Cyrill Krähenbühl, Marc Wyss, David Basin, Vincent Lenders, Adrian Perrig, and Martin Strohmeier. In Proceedings of the USENIX Security Symposium, 2023
 - **ADEM: An Authentic Digital EMblem**. F. Linker, D. Basin. In Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security (CCS), 2023.
 - **CommCSL: Proving Information Flow Security for Concurrent Programs using Abstract Commutativity**. M. Eilers, T. Dardinier, and P. Müller. ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI), Proc. ACM Program. Lang., pages 1682-1707, 2023.
+- **Sound Verification of Security Protocols: From Design to Interoperable Implementations**. L. Arquint, F. A. Wolf, J. Lallemand, R. Sasse, C. Sprenger, S. N. Wiesner, D. Basin, and P. Müller. In 2023 IEEE Symposium on Security and Privacy (SP), http://dx.doi.org/10.1109/SP46215.2023.10179325.
 
 <hr>

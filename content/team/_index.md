@@ -14,7 +14,6 @@ The Centre comprises four research groups from two different institutions; ETH Z
 
 [Information Security Group](https://infsec.ethz.ch/) (ETHZ)
   * Prof. Dr. David Basin
-  * Dr. Juan Guarnizo Hernandez
   * Felix Linker
   * Mihael Liskij
   * Jesus Solano
