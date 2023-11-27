@@ -31,7 +31,7 @@ The Centre comprises four research groups from two different institutions; ETH Z
   * Christelle Gloor
   * Cyrill Krähenbühl
 
-[Usable Security and Privacy](https://net.cs.uni-bonn.de/wg/usecap/) (Bonn)
+[Usable Security and Privacy](https://www.besec.uni-bonn.de/) (Bonn)
   * Prof. Dr. Matthew Smith
   * Lisa Geierhaas
   * Maximilian Häring
