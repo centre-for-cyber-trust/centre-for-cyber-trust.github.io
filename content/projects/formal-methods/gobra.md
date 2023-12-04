@@ -1,8 +1,7 @@
 ---
 title: "Gobra: Modular Specification and Verification of Go Programs"
-description: "Strengthening the web PKI through flexible trust"
+description: "Ensuring correct programs since 2019 🐍"
 date: 2023-06-30T15:17:34+02:00
-draft: true
 ---
 
 Gobra is an automated, modular verifier for Go programs, based on the Viper verification infrastructure.
