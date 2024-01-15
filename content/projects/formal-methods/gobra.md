@@ -13,3 +13,11 @@ Go is targeted at high performance applications running in potentially distribut
 - Visit our [project website](https://www.pm.inf.ethz.ch/research/gobra.html)!
 - Gobra's initial publication is available [here](http://dx.doi.org/10.1007/978-3-030-81685-8_17).
 - Gobra is open-source. You find the code [here](https://github.com/viperproject/gobra).
+
+## Project Members
+
+- Linard Arquint (ETH Zurich)
+- Nicolas Ray Klose (ETH Zurich)
+- Peter Müller (ETH Zurich)
+- Malte Schwerhoff (ETH Zurich)
+- Felix Wolf (ETH Zurich)
