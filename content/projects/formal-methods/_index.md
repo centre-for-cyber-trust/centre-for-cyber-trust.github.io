@@ -1,6 +1,6 @@
 ---
 title: "Formal Verification in the Centre for Cyber Trust"
-date: 2023-11-13T09:36:58+01:00
+date: 2024-01-15T15:00:00+01:00
 description: "Learn how we apply and advance Formal Verification in the Centre"
 ---
 
