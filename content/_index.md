@@ -27,3 +27,6 @@ of the digital world to secure conventional, physical communication.
 {{< paige/quote cite="Joël Mesot, President ETH Zurich" >}}
     Make the digital world more secure in a fundamental way.
 {{< /paige/quote >}}
+
+The Center for Cyber Trust is founded by the **Werner Siemens-Stiftung** (WSS).
+Learn more about our project on the [WSS's project page](https://www.wernersiemens-stiftung.ch/en/projects/cyber-trust).
