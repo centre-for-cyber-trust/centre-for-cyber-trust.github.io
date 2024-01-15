@@ -10,7 +10,7 @@ We conducted a survey with a representative sample of the German population, in 
 We found in this survey that, in general, participants were willing to allow detection mechanisms of this kind, even at the detriment of their own privacy, if they were set in place to act against severe crimes like child abuse or terrorism. Acceptance declined when the detection measures were set against crimes or misdemeanors like trafficking or using drugs. 
 Furthermore, participants were more likely to accept the measures if the institution processing the data was a government institution than a private company. The level of trust in the government that participants reported correlated statistically significantly with the likelihood of their acceptance.
 
-This research was published at the IEEE Security and Privacy in May of this year (see our [Publications](/homepage/publications)). Based on our results and feedback we received, we are currently in the process of conducting additional surveys in other countries, such as the US, to get an idea of the influence of cultural differences.
+This research was published at the IEEE Security and Privacy in May of this year (see our [Publications](/publications)). Based on our results and feedback we received, we are currently in the process of conducting additional surveys in other countries, such as the US, to get an idea of the influence of cultural differences.
 
 Additionally, we are conducting an interview study aimed at experts in the field of IT security. 
 

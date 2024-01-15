@@ -10,7 +10,7 @@ In contrast to testing, formal verification ensures the correctness and security
 Verification is thus a rigorous technique to increase trust in software.
 
 Our centre applies verification both to software designs and to concrete programs.
-On both levels, we advance verification techniques and tools, and apply them to the solutions developed in the centre such as [SOAP](/homepage/projects/secure-messaging) and [ADEM](/homepage/projects/adem).
+On both levels, we advance verification techniques and tools, and apply them to the solutions developed in the centre such as [SOAP](/projects/secure-messaging) and [ADEM](/projects/adem).
 For example, our goal for ADEM is to prove that an asset is deemed protected only if ADEM successfully checked all necessary requirements for the associated emblem. The resulting proof will increase trust that ADEM provides the required security guarantees.
 
 We advance formal verification in the following projects:

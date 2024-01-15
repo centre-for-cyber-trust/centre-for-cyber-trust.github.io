@@ -12,7 +12,7 @@ Additionally, F-PKI provides a critically missing interface in today's CT logs i
 This property allows all web PKI users and domain owners (even small domain owners) to verifiably monitor their address space.
 
 However, what happens if a highly trusted CA starts to misbehave, for example because it was compromised and an adversary managed to request a fake certificate? In the earlier version of F-PKI, although such an attack was detected through a public append-only log, the attack could not be prevented. By introducing a cool-off period (typically a few days long) during which a newly issued certificate is publicly visible, but not yet valid, domain owners can detect such bogus certificates and react accordingly to prevent attacks even from highly trusted CAs.
-We published our design at the top-tier security conference NDSS 2022 (see our [Publications](/homepage/publications/2022)).
+We published our design at the top-tier security conference NDSS 2022 (see our [Publications](/publications/2022)).
 
 ## Project Members
 
