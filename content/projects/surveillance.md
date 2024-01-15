@@ -1,7 +1,7 @@
 ---
 title: "Attitudes On Government Surveillance"
+description: "What are people's opinions on Internet-safety legislation?"
 date: 2023-11-13T09:25:34+01:00
-draft: true
 ---
 
 In 2022, the EU has confirmed legislation mandating the implementation of chat control to help fight online child abuse. This has been met with public controversy. We were able to show that, for a general population sample from Germany, trust in physical entities (like law enforcement agencies) impacts the trust that the general population has in digital measures, even on occasion superseding concerns about the potential danger to individual privacy that such technology represents. 
