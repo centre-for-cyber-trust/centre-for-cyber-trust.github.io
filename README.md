@@ -51,18 +51,5 @@ Set `draft: false` in the post's header.
 
 ## Compiling the Site Locally
 
-Before you can build the site, you need to run:
-
-```sh
-npm install
-```
-
-This will install a CSS compiler locally.
-This compiler needs to be on the PATH.
-You can find examples of how to add it in the two scripts `mac-hugo.sh` (bash for MAC) and `win-hugo.ps1` (PowerShell for Windows).
-You can use these scripts as you would use the `hugo` command.
-For example, the following command launches the Hugo development server with draft-rendering enabled:
-
-```sh
-./mac-hugo.sh server -D
-```
+The theme for this website requires a CSS compiler to be installed locally.
+Please follow the [Setup instructions](https://github.com/willfaught/paige?tab=readme-ov-file#setup) of the theme to compile the site locally.
