@@ -1,5 +1,6 @@
-/public
-/.hugo_build.lock
-/node_modules
-/resources/_gen
+public
+.hugo_build.lock
+node_modules
+resources/_gen
 **/.DS_Store
+bin
