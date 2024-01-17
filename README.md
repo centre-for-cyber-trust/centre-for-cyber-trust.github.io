@@ -2,14 +2,16 @@
 
 ## Dependencies
 
-To use the Hugo CLI (e.g., to create new posts), you need to install:
-
-- The static site builder [Hugo](https://gohugo.io/).
-
-If you also want to build the site locally, you additionally require:
-
-- The [Go](https://go.dev/) programming language.
+To build the site locally or use the Hugo CLI, you need:
 - The [npm](https://www.npmjs.com/) package manager. I suggest installing npm via [nvm](https://github.com/nvm-sh/nvm).
+
+All remaining dependencies will be downloaded by executing
+```sh
+npm install
+```
+
+Note that the pre-built Hugo binary will be located at `bin/hugo/hugo`.
+
 
 ## Adding New Content
 
@@ -27,7 +29,7 @@ The "Projects" website was designed to feature sub-posts.
 To create a new post (describing a project), run:
 
 ```sh
-hugo new content projects/NAME.md
+bin/hugo/hugo new content projects/NAME.md
 ```
 
 Alternatively, if you don't want to use `hugo`, you can also simply create that new markdown file yourself and copy a header from one of the other files.
@@ -51,5 +53,14 @@ Set `draft: false` in the post's header.
 
 ## Compiling the Site Locally
 
-The theme for this website requires a CSS compiler to be installed locally.
-Please follow the [Setup instructions](https://github.com/willfaught/paige?tab=readme-ov-file#setup) of the theme to compile the site locally.
+Before you can build the site, you need to run:
+
+```sh
+npm install
+```
+
+To preview you the site locally, then run:
+
+```sh
+npm run localhost
+```
