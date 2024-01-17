@@ -1,5 +1,12 @@
 {
-  "dependencies": {
-    "sass-embedded": "1.62.0"
+  "scripts": {
+    "postinstall": "hugo-installer --version otherDependencies.hugo --extended",
+    "localhost": "bin/hugo/hugo server -D"
+  },
+  "devDependencies": {
+    "hugo-installer": "^4.0.1"
+  },
+  "otherDependencies": {
+    "hugo": "0.121.2"
   }
 }
