@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "postinstall": "hugo-installer --version otherDependencies.hugo --extended"
+    "postinstall": "hugo-installer --version otherDependencies.hugo --extended",
+    "localhost": "bin/hugo/hugo server -D"
   },
   "devDependencies": {
     "hugo-installer": "^4.0.1"

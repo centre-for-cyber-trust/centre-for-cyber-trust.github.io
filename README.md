@@ -59,12 +59,8 @@ Before you can build the site, you need to run:
 npm install
 ```
 
-This will download a pre-built Hugo binary and install a CSS compiler locally.
-This compiler needs to be on the PATH.
-You can find examples of how to add it in the scripts `mac-x64-hugo.sh`, `mac-arm-hugo.sh`, and `win-hugo.ps1` (x86-based macOS, arm-based macOS, and PowerShell for Windows resp.).
-You can use these scripts as you would use the `hugo` command.
-For example, the following command launches the Hugo development server with draft-rendering enabled:
+To preview you the site locally, then run:
 
 ```sh
-./mac-hugo.sh server -D
+npm run localhost
 ```
