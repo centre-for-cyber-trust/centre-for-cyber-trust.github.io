@@ -5,7 +5,7 @@ description: "How can Tamarin handle loops automatically?"
 ---
 
 {{< paige/figure float="end" >}}
-{{< paige/image class="object-fit-cover rounded-4" src="/homepage/images/maze.jpg" width="20rem" >}}
+{{< paige/image class="object-fit-cover rounded-4" src="/images/maze.jpg" width="20rem" >}}
 {{< /paige/figure >}}
 
 Tamarin is a state-of-the art, automated protocol verifier that was used to prove real-world and complex protocols secure, for example, [TLS 1.3](https://tls13tamarin.github.io/TLS13Tamarin/docs/tls13tamarin-draft21.pdf) or [5G](https://people.cispa.io/cas.cremers/downloads/papers/CrDe2018-5G.pdf).

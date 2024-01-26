@@ -8,7 +8,7 @@ We entrust our digital devices with many of our intimate secrets. We likewise as
 
 In a [suspected government wiretap](https://therecord.media/jabber-ru-alleged-government-wiretap-expired-tls-certificate) , an actor inserted itself between them and the servers. The trust users had in the messaging application was betrayed and sensitive conversations exposed.
 
-<p>{{% paige/image class="object-fit-cover rounded-4" fetchpriority="high" loading="eager" src="/homepage/images/trustedIntros/DevilOnTheLine.png" width="100%" %}}</p>
+<p>{{% paige/image class="object-fit-cover rounded-4" fetchpriority="high" loading="eager" src="/images/trustedIntros/DevilOnTheLine.png" width="100%" %}}</p>
 
 While such stories seem rare, consider that only the ones caught are reported. How sure are you that there’s no devil on your line?
 
@@ -28,7 +28,7 @@ These checks are left as a responsibility of the users, which can typically veri
     numbered=false
     vertical=""
     width="" >}}
-<p>{{% paige/image class="object-fit-cover rounded-4" fetchpriority="high" loading="eager" src="/homepage/images/trustedIntros/QR_edited_cropped.png" width="50%" float="right" %}}</p>
+<p>{{% paige/image class="object-fit-cover rounded-4" fetchpriority="high" loading="eager" src="/images/trustedIntros/QR_edited_cropped.png" width="50%" float="right" %}}</p>
 {{< /paige/figure >}}
 
 
@@ -48,7 +48,7 @@ We define the concept of a *trusted introduction*, where a user, after first ver
     numbered=false
     vertical=""
     width="" >}}
-<p>{{% paige/image class="object-fit-cover rounded-4" fetchpriority="high" loading="eager" src="/homepage/images/trustedIntros/Android-Initiate-Introduction.png" width="75%" float="right" %}}</p>   <p>{{% paige/image class="object-fit-cover rounded-4" fetchpriority="high" loading="eager" src="/homepage/images/trustedIntros/Android-introduce-contacts.png" width="75%" float="right" %}}</p>  
+<p>{{% paige/image class="object-fit-cover rounded-4" fetchpriority="high" loading="eager" src="/images/trustedIntros/Android-Initiate-Introduction.png" width="75%" float="right" %}}</p>   <p>{{% paige/image class="object-fit-cover rounded-4" fetchpriority="high" loading="eager" src="/images/trustedIntros/Android-introduce-contacts.png" width="75%" float="right" %}}</p>  
 {{< /paige/figure >}}
 
 We are thus moving towards a more intuitive understanding of these mechanisms that mirror the behavior of people in everyday life.

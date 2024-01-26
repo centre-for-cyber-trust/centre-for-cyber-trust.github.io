@@ -20,7 +20,7 @@ The main distinguishing factor is whether an approach requires an accurate abstr
 ## Approach 1: Protocol Model Refinement
 
 {{< paige/figure float="end" >}}
-{{< paige/image src="/homepage/images/protocolVerification/tamarin-refinement.jpg" width="30rem" maxwidth="100%" >}}
+{{< paige/image src="/images/protocolVerification/tamarin-refinement.jpg" width="30rem" maxwidth="100%" >}}
 {{< /paige/figure >}}
 
 The first approach requires an accurate abstract protocol model and reasons about security properties on the level of this model using the [Tamarin](https://tamarin-prover.com) protocol verifier (1).
@@ -42,7 +42,7 @@ Thus, no abstract protocol model is required.
 This is particularly beneficial if no protocol model exists yet, an existing protocol model has not been updated to reflect the evolved protocol, or it turns out that proving that a particular concurrency pattern in the implementation refines the abstract protocol model is difficult.
 
 {{< paige/figure float="end" >}}
-{{< paige/image src="/homepage/images/protocolVerification/trace-dynamic.jpg" width="20rem" maxwidth="100%" >}}
+{{< paige/image src="/images/protocolVerification/trace-dynamic.jpg" width="20rem" maxwidth="100%" >}}
 {{< /paige/figure >}}
 
 As illustrated in the figure, the implementations of protocol roles, such as Alice and Bob, are instantiated at runtime.
