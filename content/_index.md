@@ -12,6 +12,10 @@ paige:
         font-size: 3rem;
     }
 draft: false
+# we list URLs from the old webpage as aliases such that Hugo creates permanent redirects to this page:
+aliases:
+    - /blog
+    - /2020/04/kickoff
 ---
 
 We all use the Internet for our personal and business communications, but we are all too happy to crowd out the terrifying truth: the Internet can be crippled by criminals and hostile states, even by individual companies, in no time at all.

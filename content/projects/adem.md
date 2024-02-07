@@ -2,6 +2,10 @@
 title: "ADEM: An Authentic Digital Emblem"
 description: "How can we transfer the physical red cross into the digital world?"
 date: 2023-06-30T15:16:22+02:00
+# we list URLs from the old webpage as aliases such that Hugo creates permanent redirects to this page:
+aliases:
+    - /2021/12/signaling-legal-protection-during-cyber-warfare-an-authenticated-digital-emblem
+    - /2022/11/icrc-publishes-report-on-a-digital-emblem
 ---
 
 <p>{{% paige/image class="object-fit-cover rounded-4" fetchpriority="high" height="24rem" loading="eager" src="/images/digital_emblem.jpg" width="100%" %}}</p>
