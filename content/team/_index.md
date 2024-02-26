@@ -8,7 +8,7 @@ paige:
     }
 ---
 
-<p>{{% paige/image class="object-fit-cover rounded-4" fetchpriority="high" height="24rem" loading="eager" src="/images/team.jpg" width="100%" %}}</p>
+<p>{{% paige/image breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="24rem" loading="eager" src="/images/team.jpg" width="100%" %}}</p>
 
 The Centre comprises four research groups from two different institutions; ETH Zurich and University of Bonn.
 
