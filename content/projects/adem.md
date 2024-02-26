@@ -16,6 +16,8 @@ ADEM provides a unique combination of security requirements, namely, authenticat
 
 In 2023, we also initiated the knowledge transfer phase of this research project, by developing ADEM prototypes in collaboration with the ICRC. Currently, we are working on deploying ADEM in the ICRC’s network to showcase that ADEM is both practical and scales to large organizations. We are optimistic that the ICRC’s network can present the digital emblem to anyone interacting with it by the end of 2023.
 
+We are also exploring how we can reduce ADEM's trust assumptions and make it secure even if a malicious actor compromises the operating system of a device. Our aim is to give authenticating entities a method to check that an emblem resides on a specific hardware device. This will make ADEM robust enough to directly deploy on less secure devices such as laptops and mobile phones.
+
 ## Read More
 
 Visit our [project website](https://emblem.felixlinker.de/)!
