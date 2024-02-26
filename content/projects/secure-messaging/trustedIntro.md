@@ -2,6 +2,8 @@
 title: "Trusted Introductions for the Signal messenger"
 description: "A more convenient way to keep devils off the line"
 date: 2023-11-13T10:00:00+02:00
+categories:
+  - project
 ---
 
 We entrust our digital devices with many of our intimate secrets. We likewise assume that these stay confidential as we send them to our friends through private messaging apps. Russian users now learned that this assumption is fragile. 

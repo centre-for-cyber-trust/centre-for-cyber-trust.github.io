@@ -2,6 +2,8 @@
 title: "Protocol Verification"
 description: "Proving protocol implementations secure"
 date: 2023-11-13T09:37:12+01:00
+categories:
+  - project
 ---
 
 Security protocol implementations are obiquitious.

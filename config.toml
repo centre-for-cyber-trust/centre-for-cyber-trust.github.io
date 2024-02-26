@@ -22,10 +22,16 @@ url = "/team"
 weight = 20
 
 [[languages.en.menu.main]]
-identifier = "projects"
-name = "Projects"
+identifier = "topics"
+name = "Research Topics"
 url = "/projects"
 weight = 30
+
+[[languages.en.menu.main]]
+identifier = "projects"
+name = "Research Projects"
+url = "/categories/project"
+weight = 35
 
 [[languages.en.menu.main]]
 identifier = "pubs"
@@ -41,3 +47,5 @@ path = "github.com/willfaught/paige"
     [markup.goldmark.renderer]
       unsafe = true
 
+[taxonomies]
+category = "categories"

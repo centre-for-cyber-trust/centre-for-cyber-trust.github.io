@@ -2,6 +2,8 @@
 title: "SOAP: A Social Authentication Protocol"
 description: "SOAP is an OpenID Connect-based authentication protocol, which we applied to messaging applications."
 date: 2023-11-13T09:26:28+01:00
+categories:
+  - project
 ---
 
 SOAP is an OpenID Connect-based Social Authentication Protocol, which we applied to messaging applications.

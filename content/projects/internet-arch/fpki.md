@@ -2,6 +2,8 @@
 title: "F-PKI: The Flexible Public Key Infrastructure"
 description: "Strengthening the web PKI through flexible trust"
 date: 2023-06-30T15:17:34+02:00
+categories:
+  - project
 ---
 
 Our new Flexible Public-Key Infrastructure (F-PKI) allows users to define which certificate authorities (CAs) they consider highly trusted based on their individual trust preference.

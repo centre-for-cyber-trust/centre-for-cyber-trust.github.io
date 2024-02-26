@@ -1,5 +1,5 @@
 ---
-title: "Projects"
-description: "The Centre's research projects"
+title: "Research Topics"
+description: "The Centre's research topics"
 ---
 
