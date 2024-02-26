@@ -1,5 +1,5 @@
 ---
-title: "Truted Introductions for the Signal messenger"
+title: "Trusted Introductions for the Signal messenger"
 description: "A more convenient way to keep devils off the line"
 date: 2023-11-13T10:00:00+02:00
 ---
