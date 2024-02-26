@@ -17,7 +17,9 @@ Go is targeted at high performance applications running in potentially distribut
 ## Project Members
 
 - Linard Arquint (ETH Zurich)
-- Nicolas Ray Klose (ETH Zurich)
+- João Carlos Mendes Pereira (ETH Zurich)
 - Peter Müller (ETH Zurich)
+- Nicolas Ray Klose (ETH Zurich)
 - Malte Schwerhoff (ETH Zurich)
+- Dionisios Spiliopoulos (ETH Zurich)
 - Felix Wolf (ETH Zurich)

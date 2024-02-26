@@ -77,6 +77,11 @@ More information can be found in the related publication:
 
 - Linard Arquint (ETH Zurich)
 - David Basin (ETH Zurich)
+- Joseph Lallemand (Univ Rennes)
+- Vaibhav Mehta (Cornell)
 - Peter Müller (ETH Zurich)
+- Ralf Sasse (ETH Zurich)
 - Malte Schwerhoff (ETH Zurich)
+- Christoph Sprenger (ETH Zurich)
+- Sven N. Wiesner (ETH Zurich)
 - Felix Wolf (ETH Zurich)
