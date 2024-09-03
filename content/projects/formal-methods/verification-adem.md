@@ -4,7 +4,6 @@ description: "Verifying the verification code for ADEM"
 date: 2024-06-06T11:42:11+02:00
 categories:
   - project
-draft: true
 ---
 
 [ADEM](/projects/internet-arch/adem) is a proposal for a digital emblem and was developed at the Centre for Cyber Trust.
@@ -17,6 +16,10 @@ The Programming Methodology and Information Security groups, both members of the
 This establishes that no matter what input an adversary provides to our code, the verification will always return correct results.
 
 This project combines two aspects of our Centre's research: (i) [proving protocol implementations](/projects/formal-methods/protocol-verification) secure using [Gobra](/projects/formal-methods/gobra), and (ii) [ADEM](/projects/internet-arch/adem), our proposal for a digital emblem.
+
+## Read More
+
+The thesis is available [at the ETHZ Research Collection](https://doi.org/10.3929/ethz-b-000678729).
 
 ## Project Members
 - Felix Linker

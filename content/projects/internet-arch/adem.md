@@ -27,6 +27,7 @@ Visit our [project website](https://emblem.felixlinker.de/)!
 - We wrote about ADEM on the [ICRC's Law & Policy blog](https://blogs.icrc.org/law-and-policy/2021/09/21/legal-protection-cyber-warfare-digital-emblem/).
 - ADEM's publication is available [here](https://doi.org/10.1145/3576915.3616578) (link active around November 2023).
 - ADEM's design is open-source. You find the specification [here](https://adem-wg.github.io/adem-spec/) and all code [here](https://github.com/adem-wg).
+- A follow-up student project [formally verified ADEM's prototype codebase](/projects/formal-methods/verification-adem/)!
 
 ## Project Members
 
