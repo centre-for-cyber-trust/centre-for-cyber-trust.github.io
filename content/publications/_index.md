@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-date: 2023-06-30T15:18:38+02:00
+date: 2025
 paige:
   style: |
     #paige-content {
@@ -12,8 +12,8 @@ paige:
     }
 ---
 
-## 2024
+## 2025
 
-- Linker, Felix, and David A. Basin. "**SOAP: A Social Authentication Protocol**." In 33rd USENIX Security Symposium. Philadelphia, PA, USA: USENIX Association, 2024. https://www.usenix.org/conference/usenixsecurity24/presentation/linker.
+- Linker, Felix, Sasse, Ralf, and David Basin. "**A Formal Analysis of Apple's iMessage PQ3 Protocol**." In 34th USENIX Security Symposium. 2024. [[Publisher](https://www.usenix.org/conference/usenixsecurity24/presentation/linker)].
 
 <hr>
