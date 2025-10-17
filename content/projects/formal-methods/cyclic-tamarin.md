@@ -14,9 +14,18 @@ Tamarin is a state-of-the art, automated protocol verifier that was used to prov
 Nevertheless, Tamarin only supports a limited induction mechanism.
 Induction is required to handle loops and unbounded data structures, which become more and more common in modern protocols such as in Signal and Certificate Transparency.
 
-In the Centre for Cyber Trust, we currently explore a new induction mechanism for Tamarin that implements so-called *cyclic proofs*.
+In the Centre for Cyber Trust, we developed a new induction mechanism for Tamarin that implements so-called *cyclic proofs*.
 In cyclic proof systems, one can reuse a previous proof state as an axiom, provided the proof adheres to a global well-formedness condition.
-We aim to enhance Tamarin such that we can prove **more properties** with **more automation**.
+Using our new induction scheme, we improved Tamarin's automation and Tamarin can now prove many more properties by itself that previously required human guidance.
+
+A highlight case study of our research paper is the verification of the Signal protocol.
+With our new induction mechanism, Tamarin can now verify the Signal protocol without requiring any user-provided, auxiliary properties.
+The Signal protocol uses a double-ratchet construction, just like the iMessage PQ3 protocol, which [we verified in previous work](/projects/secure-messaging/imessage/).
+The analysis of iMessage PQ3, however, could not yet benefit from our new induction mechanism, and therefore had to be done with much more user guidance than our Signal case study suggests.
+
+More information can be found in the related publication, which received a **Distinguished Paper Award at CCS 2025**.
+
+> Felix Linker, Christoph Sprenger, Cas Cremers, and David Basin. "**Looping for Good: Cyclic Proofs for Security Protocols**." In 32nd ACM Conference on Computer and Communications Security (CCS). 2025. [[Full Version](https://doi.org/10.3929/ethz-c-000783356) | [Publisher Version](https://doi.org/10.1145/3719027.3765131)]
 
 ## Project Members
 
