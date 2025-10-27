@@ -16,6 +16,10 @@ This property allows all web PKI users and domain owners (even small domain owne
 However, what happens if a highly trusted CA starts to misbehave, for example because it was compromised and an adversary managed to request a fake certificate? In the earlier version of F-PKI, although such an attack was detected through a public append-only log, the attack could not be prevented. By introducing a cool-off period (typically a few days long) during which a newly issued certificate is publicly visible, but not yet valid, domain owners can detect such bogus certificates and react accordingly to prevent attacks even from highly trusted CAs.
 We published our design at the top-tier security conference NDSS 2022 (see our [Publications](/publications/2022)).
 
+We developed both a browser extension for [Firefox](https://github.com/cyrill-k/fpki-firefox-extension) and [Chromium](https://github.com/cyrill-k/fpki-firefox-extension/tree/chrome-v3-wip),
+and a high performance reference implementation for a [Map Server](https://github.com/netsec-ethz/fpki),
+that allows any party to both test and deploy their own instance of a Sparse Merkle-Hash tree-based F-PKI landscape server.
+
 ## Project Members
 
 - Adrian Perrig (ETH Zürich)
