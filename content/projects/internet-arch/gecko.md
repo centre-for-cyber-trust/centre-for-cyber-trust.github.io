@@ -24,7 +24,8 @@ It can detect fake stores, such as stores selling fake brand products,
 and fake services, such as WiFi hotspots in malls and airports that steal confidential user information,
 e.g., credit card information.
 
-Our implementation of the GECKO server was tested holding millions of assets,
+Our [implementation of the GECKO server](https://github.com/netsec-ethz/geopki)
+was tested holding millions of assets,
 and serving cryptographic material based on precise location queries within 11 ms
 at a rate of over 19,000 queries per second on a single server.
 
