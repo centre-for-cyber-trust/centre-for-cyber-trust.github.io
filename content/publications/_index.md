@@ -21,5 +21,6 @@ paige:
 
 - Marc Wyss, Marc Frei, Jonghoon Kwon, and Adrian Perrig. "**Low-cost and Robust Global Time Synchronization.**." In Proceedings of the IEEE Symposium on Security and Privacy 2025. [[Full Version](https://netsec.ethz.ch/publications/papers/2025_sp_everdeen_author_version.pdf)]
 - Marc Frei, Jonghoon Kwon, Marc Wyss, and Adrian Perrig. "**Clockwire – Multi-path Time Synchronization Made Practical**." In Proceedings of the IEEE Symposium on Security and Privacy (Poster Session) 2025. [[Full Version](https://netsec.ethz.ch/publications/papers/2025_sp_poster_clockwire.pdf)]
+- Cyrill Krähenbühl, Nico Hauser, Christelle Gloor, Juan A. Garcia-Pardo, and Adrian Perrig. "**GECKO: Securing Digital Assets Through(out) the Physical World**." International Conference on Computing, Networking and Communications (ICNC), 2026.
 
 <hr>
