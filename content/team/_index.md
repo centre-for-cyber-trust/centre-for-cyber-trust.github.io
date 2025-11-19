@@ -20,10 +20,10 @@ The Centre comprises four research groups from two different institutions; ETH Z
 
 [Programming Methodology Group](https://www.pm.inf.ethz.ch/) (ETH Zurich)
   * Prof. Dr. Peter Müller
+  * Dr. Malte Schwerhoff
   * Linard Arquint
   * Nicolas Ray Klose
-  * Dr. Malte Schwerhoff
-  * Felix Wolf
+  * Andrew Lee
 
 [Network Security Group](https://netsec.ethz.ch/) (ETH Zurich)
   * Prof. Dr. Adrian Perrig

@@ -6,7 +6,7 @@ categories:
   - project
 ---
 
-Security protocol implementations are obiquitious.
+Security protocol implementations are ubiquitous.
 We use them daily to perform electronic payments, communicate with friends and coworkers, and they are even present in our electronic passports.
 
 However, designing and implementing security protocols is notoriously difficult.
@@ -17,6 +17,7 @@ Thus, we need formal verification to reason about the correctness of security pr
 
 We have developed two different approaches to verifying the correctness of security protocol implementations, each having different advantages.
 The main distinguishing factor is whether an approach requires an accurate abstract protocol model.
+To scale either approach to large codebases, we developed [Diodon](#diodon-scaling-to-large-codebases), a novel methodology combining program verification and sound static analyses.
 
 
 ## Approach 1: Protocol Model Refinement
@@ -75,10 +76,38 @@ Our approach can not only reason about heap manipulating and concurrent protocol
 More information can be found in the related publication:
 > **A Generic Methodology for the Modular Verification of Security Protocol Implementations**. L. Arquint, M. Schwerhoff, V. Mehta, and P. Müller. In Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security (CCS), 2023, [[PDF](https://pm.inf.ethz.ch/publications/ArquintSchwerhoffMehtaMueller23.pdf)] [[Publisher](https://doi.org/10.1145/3576915.3623105)].
 
+
+## Diodon: Scaling to Large Codebases
+
+The two approaches described above have to be applied to the entire codebase as a single implementation error can render the entire implementation insecure. While these approaches established how to reason about security properties on a code-level, they can be prohibitively labor-intensive for larger codebases as found in industrial deployments.
+
+Our methodology, Diodon, addresses this pain point and makes it possible to focus labor-intensive verification techniques only on the most critical parts of a codebase, while applying more automatic and, thus, scalable techniques to the rest of the codebase. More specifically, security protocols are typically implemented in relatively small parts of an overall codebase. We refer to these parts as the *core*. Due to the complexity of such a core, we apply our techniques developed in previous years to just the core. These techniques deliver the precision required to reason about the core’s security. However, the rest of the codebase, which we call *application*, cannot simply be ignored as an implementation error therein can invalidate the core’s security. To fill this gap, we apply fully automatic but less precise static analyses. These analyses ensure not only that the application does not use cryptographic key material in a potentially insecure way but also that the application uses the core correctly. The latter, for example, detects concurrency errors in the core caused by the application.
+
+{{< paige/figure float="end" >}}
+{{< paige/image src="/images/protocolVerification/diodon.pdf" width="20rem" maxwidth="100%" >}}
+{{< /paige/figure >}}
+
+As illustrated in the figure, we partition a codebase (blue) along function boundaries into the module implementing a protocol (core) and the remaining codebase (application).
+When combined with the first approach, we prove that the core refines (trace inclusion on the right) a particular role of the verified protocol model (green) by auto-active verification.
+We apply static analyses to the entire codebase to enforce that secrets (red) do not influence (red arrows) the I/O operations (gray circles) of the application and to ensure that the application cannot invalidate the security properties proved for the core.
+Consequently, Diodon guarantees that the entire codebase refines the protocol model (trace inclusion in the middle) and, thus, enjoys all security properties proved for that model.
+
+To demonstrate that our novel combination of differently precise and automatic techniques delivers the needed scalability for industrial codebases, we apply our work to a 100k lines of code large fork of an open-source codebase from Amazon Web Services (AWS). Our evaluation uncovered errors in an unreleased version of the codebase and identified certain hard-to-reason-about patterns. Rewriting these patterns would result in a more defensive implementation. Alternatively, we could improve the employed static analyses further to handle these patterns.
+
+A central piece of our work is a formalism that allows us to combine the results delivered by the various employed techniques, and we hope our work spurs both practical and theoretical understanding of how to soundly combine proof systems of different expressive power.
+
+More information can be found in the related publication:
+> **The Secrets Must Not Flow: Scaling Security Verification to Large Codebases**. L. Arquint, S. Kishor, J. R. Koenig, J. Dodds, D. Kroening, and P. Müller. In 2026 IEEE Symposium on Security and Privacy (SP), [[PDF](https://pm.inf.ethz.ch/publications/ArquintKishorKoenigDoddsKroeningMueller26.pdf)] [[Publisher](https://doi.ieeecomputersociety.org/10.1109/SP63933.2026.00026)].
+
+
 ## Project Members
 
 - Linard Arquint (ETH Zurich)
 - David Basin (ETH Zurich)
+- Joey Dodds (Amazon Web Services)
+- Samarth Kishor (Amazon Web Services)
+- Jason R. Koenig (Amazon Web Services)
+- Daniel Kroening (Amazon Web Services)
 - Joseph Lallemand (Univ Rennes)
 - Vaibhav Mehta (Cornell)
 - Peter Müller (ETH Zurich)
